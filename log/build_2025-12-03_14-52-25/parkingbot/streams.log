@@ -1,0 +1,31 @@
+[4.094s] Invoking command in '/home/device07/parkingbot': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data
+[4.868s] /home/device07/miniforge3/envs/jetson07/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.869s]   warnings.warn(msg)
+[5.405s] running egg_info
+[5.489s] writing build/parkingbot/parkingbot.egg-info/PKG-INFO
+[5.492s] writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt
+[5.494s] writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt
+[5.495s] writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt
+[5.495s] writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt
+[6.122s] reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[6.129s] writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[6.130s] running build
+[6.131s] running build_py
+[6.131s] copying parkingbot/depth_helper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.133s] copying parkingbot/vision_node.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.134s] copying parkingbot/gesture_logic.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.136s] copying parkingbot/__init__.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.137s] copying parkingbot/pose_wrapper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.139s] running install
+[6.163s] running install_lib
+[6.254s] running install_data
+[6.255s] copying resource/parkingbot -> /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index/packages
+[6.256s] copying package.xml -> /home/device07/parkingbot/install/parkingbot/share/parkingbot
+[6.257s] copying launch/parkingbot.launch.py -> /home/device07/parkingbot/install/parkingbot/share/parkingbot/launch
+[6.258s] running install_egg_info
+[6.347s] removing '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info' (and everything under it)
+[6.349s] Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info
+[6.355s] running install_scripts
+[6.565s] Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot
+[6.567s] writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'
+[6.670s] Invoked command in '/home/device07/parkingbot' returned '0': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data

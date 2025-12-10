@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.002078] (parkingbot) JobQueued: {'identifier': 'parkingbot', 'dependencies': OrderedDict()}
+[0.002882] (parkingbot) JobStarted: {'identifier': 'parkingbot'}
+[0.099455] (-) TimerEvent: {}
+[0.201706] (-) TimerEvent: {}
+[0.302702] (-) TimerEvent: {}
+[0.403590] (-) TimerEvent: {}
+[0.504579] (-) TimerEvent: {}
+[0.605533] (-) TimerEvent: {}
+[0.706470] (-) TimerEvent: {}
+[0.807365] (-) TimerEvent: {}
+[0.908450] (-) TimerEvent: {}
+[1.009443] (-) TimerEvent: {}
+[1.113176] (-) TimerEvent: {}
+[1.215795] (-) TimerEvent: {}
+[1.316793] (-) TimerEvent: {}
+[1.417741] (-) TimerEvent: {}
+[1.518730] (-) TimerEvent: {}
+[1.619796] (-) TimerEvent: {}
+[1.720722] (-) TimerEvent: {}
+[1.821614] (-) TimerEvent: {}
+[1.922482] (-) TimerEvent: {}
+[2.023428] (-) TimerEvent: {}
+[2.124411] (-) TimerEvent: {}
+[2.225356] (-) TimerEvent: {}
+[2.326229] (-) TimerEvent: {}
+[2.427203] (-) TimerEvent: {}
+[2.528254] (-) TimerEvent: {}
+[2.629177] (-) TimerEvent: {}
+[2.730702] (-) TimerEvent: {}
+[2.832013] (-) TimerEvent: {}
+[2.933311] (-) TimerEvent: {}
+[3.034618] (-) TimerEvent: {}
+[3.135996] (-) TimerEvent: {}
+[3.237301] (-) TimerEvent: {}
+[3.338602] (-) TimerEvent: {}
+[3.439987] (-) TimerEvent: {}
+[3.541296] (-) TimerEvent: {}
+[3.642614] (-) TimerEvent: {}
+[3.743576] (-) TimerEvent: {}
+[3.844912] (-) TimerEvent: {}
+[3.946108] (-) TimerEvent: {}
+[4.027479] (parkingbot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/device07/parkingbot/build/parkingbot/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/device07/parkingbot/build/parkingbot', 'env': {'PYTHON_BASIC_REPL': '1', 'CONDA_PROMPT_MODIFIER': '(jetson07)', 'USER': 'device07', 'SSH_CLIENT': '192.168.1.76 54567 22', '__OLD_PYTHONPATH': '/opt/ros/foxy/lib/python3.8/site-packages:', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh', 'OPENBLAS_NUM_THREADS': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/device07/miniforge3/envs/jetson07/lib:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu/tegra:/home/device07/miniforge3/envs/jetson07/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:', 'BROWSER': '/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/device07', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/device07/parkingbot', 'TERM_PROGRAM_VERSION': '1.106.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-41cdb8cc-8431-4041-b968-cbfcf1be667c.sock', 'JETSON_L4T': '35.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/device07/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'PYTHONNOUSERSITE': '1', '_CONDA_ROOT': '/home/device07/miniforge3', '__OLD_CUDA_HOME': '', 'TORCH_CUDA_ARCH_LIST': '7.2', 'COLCON_PREFIX_PATH': '/home/device07/parkingbot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'device07', '__OLD_OpenCV_DIR': '', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX', 'JETSON_SERIAL_NUMBER': '1421922008799', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '__OLD_CUDA_PATH': '', '__OLD_PYTHONNOUSERSITE': '', '__OLD_CMAKE_PREFIX_PATH': '', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', '_OLD_LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu/tegra:/home/device07/miniforge3/envs/jetson07/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:', 'PATH': '/home/device07/parkingbot/install/parkingbot/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/device07/miniforge3/envs/jetson07/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/device07/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d8d2ec536c130f68.txt', '__OLD_PKG_CONFIG_PATH': '', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/device07/.vscode-server/data/User/workspaceStorage/fb74060fdb8f680677b277512baf3b6f/ms-python.python/pythonrc.py', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fb495dbe2d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/device07/parkingbot/install/parkingbot:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/device07/miniforge3/bin/python', 'SHELL': '/bin/bash', '__OLD_OPENBLAS_NUM_THREADS': '', '__OLD_PATH': '/home/device07/parkingbot/install/parkingbot/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/device07/miniforge3/envs/jetson07/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CONDA_DEFAULT_ENV': 'jetson07', 'OpenCV_DIR': '/usr/local/lib/cmake/opencv4', '_CONDA_EXE': '/home/device07/miniforge3/bin/conda', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/device07/parkingbot/build/parkingbot', 'CUDA_HOME': '/usr/local/cuda', 'CONDA_EXE': '/home/device07/miniforge3/bin/conda', 'SSH_CONNECTION': '192.168.1.76 54567 192.168.1.207 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:/home/device07/miniforge3/envs/jetson07/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'CONDA_PREFIX': '/home/device07/miniforge3/envs/jetson07', 'COLCON': '1', 'CUDA_PATH': '/usr/local/cuda', '__OLD_LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:', 'JETSON_JETPACK': '5.1.5', 'CMAKE_PREFIX_PATH': '/usr/local:', 'JETSON_P_NUMBER': 'p3668-0001'}, 'shell': False}
+[4.047377] (-) TimerEvent: {}
+[4.153022] (-) TimerEvent: {}
+[4.254107] (-) TimerEvent: {}
+[4.355083] (-) TimerEvent: {}
+[4.456196] (-) TimerEvent: {}
+[4.557104] (-) TimerEvent: {}
+[4.658052] (-) TimerEvent: {}
+[4.759028] (-) TimerEvent: {}
+[4.786835] (parkingbot) StderrLine: {'line': b"/home/device07/miniforge3/envs/jetson07/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.788788] (parkingbot) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.859238] (-) TimerEvent: {}
+[4.960326] (-) TimerEvent: {}
+[5.061261] (-) TimerEvent: {}
+[5.162308] (-) TimerEvent: {}
+[5.263273] (-) TimerEvent: {}
+[5.364399] (-) TimerEvent: {}
+[5.465392] (-) TimerEvent: {}
+[5.566989] (-) TimerEvent: {}
+[5.603794] (parkingbot) StdoutLine: {'line': b'running develop\n'}
+[5.667199] (-) TimerEvent: {}
+[5.768246] (-) TimerEvent: {}
+[5.869163] (-) TimerEvent: {}
+[5.970195] (-) TimerEvent: {}
+[6.071151] (-) TimerEvent: {}
+[6.172214] (-) TimerEvent: {}
+[6.273132] (-) TimerEvent: {}
+[6.374088] (-) TimerEvent: {}
+[6.475012] (-) TimerEvent: {}
+[6.575957] (-) TimerEvent: {}
+[6.608888] (parkingbot) StdoutLine: {'line': b'running egg_info\n'}
+[6.676178] (-) TimerEvent: {}
+[6.688632] (parkingbot) StdoutLine: {'line': b'writing parkingbot.egg-info/PKG-INFO\n'}
+[6.690984] (parkingbot) StdoutLine: {'line': b'writing dependency_links to parkingbot.egg-info/dependency_links.txt\n'}
+[6.692341] (parkingbot) StdoutLine: {'line': b'writing entry points to parkingbot.egg-info/entry_points.txt\n'}
+[6.693319] (parkingbot) StdoutLine: {'line': b'writing requirements to parkingbot.egg-info/requires.txt\n'}
+[6.694057] (parkingbot) StdoutLine: {'line': b'writing top-level names to parkingbot.egg-info/top_level.txt\n'}
+[6.776452] (-) TimerEvent: {}
+[6.874397] (parkingbot) StdoutLine: {'line': b"reading manifest file 'parkingbot.egg-info/SOURCES.txt'\n"}
+[6.876622] (-) TimerEvent: {}
+[6.880968] (parkingbot) StdoutLine: {'line': b"writing manifest file 'parkingbot.egg-info/SOURCES.txt'\n"}
+[6.976899] (-) TimerEvent: {}
+[7.077886] (-) TimerEvent: {}
+[7.178963] (-) TimerEvent: {}
+[7.189097] (parkingbot) StdoutLine: {'line': b'running build_ext\n'}
+[7.192520] (parkingbot) StdoutLine: {'line': b'Creating /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot.egg-link (link to .)\n'}
+[7.197191] (parkingbot) StdoutLine: {'line': b'Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot\n'}
+[7.199076] (parkingbot) StdoutLine: {'line': b'\n'}
+[7.199585] (parkingbot) StdoutLine: {'line': b'Installed /home/device07/parkingbot/build/parkingbot\n'}
+[7.200390] (parkingbot) StdoutLine: {'line': b'running symlink_data\n'}
+[7.201773] (parkingbot) StdoutLine: {'line': b'symbolically linking /home/device07/parkingbot/build/parkingbot/resource/parkingbot -> /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index/packages\n'}
+[7.202893] (parkingbot) StdoutLine: {'line': b'symbolically linking /home/device07/parkingbot/build/parkingbot/package.xml -> /home/device07/parkingbot/install/parkingbot/share/parkingbot\n'}
+[7.203817] (parkingbot) StdoutLine: {'line': b'symbolically linking /home/device07/parkingbot/build/parkingbot/launch/parkingbot.launch.py -> /home/device07/parkingbot/install/parkingbot/share/parkingbot/launch\n'}
+[7.279224] (-) TimerEvent: {}
+[7.332295] (parkingbot) CommandEnded: {'returncode': 0}
+[7.379784] (-) TimerEvent: {}
+[7.417338] (parkingbot) JobEnded: {'identifier': 'parkingbot', 'rc': 0}
+[7.422176] (-) EventReactorShutdown: {}

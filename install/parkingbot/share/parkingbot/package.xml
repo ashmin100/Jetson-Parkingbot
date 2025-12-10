@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>parkingbot</name>
+  <version>0.0.1</version>
+  <description>Skeleton gesture control for TurtleBot3 using jetson-inference poseNet + RealSense depth.</description>
+
+  <maintainer email="todo@example.com">TODO Maintainer</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

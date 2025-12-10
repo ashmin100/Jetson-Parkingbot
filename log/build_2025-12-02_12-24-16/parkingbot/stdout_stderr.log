@@ -1,0 +1,31 @@
+/home/device07/miniforge3/envs/jetson07/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing build/parkingbot/parkingbot.egg-info/PKG-INFO
+writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt
+writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt
+writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt
+writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt
+reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying parkingbot/depth_helper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+copying parkingbot/vision_node.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+copying parkingbot/gesture_logic.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+copying parkingbot/__init__.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+copying parkingbot/pose_wrapper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+running install
+running install_lib
+copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/vision_node.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/vision_node.py to vision_node.cpython-38.pyc
+running install_data
+copying resource/parkingbot -> /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index/packages
+copying package.xml -> /home/device07/parkingbot/install/parkingbot/share/parkingbot
+copying launch/parkingbot.launch.py -> /home/device07/parkingbot/install/parkingbot/share/parkingbot/launch
+running install_egg_info
+removing '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info' (and everything under it)
+Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info
+running install_scripts
+Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot
+writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'

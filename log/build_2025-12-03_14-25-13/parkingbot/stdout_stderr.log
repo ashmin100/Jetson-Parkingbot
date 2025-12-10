@@ -1,0 +1,22 @@
+running egg_info
+writing build/parkingbot/parkingbot.egg-info/PKG-INFO
+writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt
+writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt
+writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt
+writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt
+reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying parkingbot/gesture_logic.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+running install
+running install_lib
+copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/gesture_logic.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/gesture_logic.py to gesture_logic.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info' (and everything under it)
+Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info
+running install_scripts
+Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot
+writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'

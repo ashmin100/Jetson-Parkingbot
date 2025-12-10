@@ -1,0 +1,12 @@
+source;share/parkingbot/hook/path.ps1
+source;share/parkingbot/hook/path.dsv
+source;share/parkingbot/hook/path.sh
+source;share/parkingbot/hook/pythonpath.ps1
+source;share/parkingbot/hook/pythonpath.dsv
+source;share/parkingbot/hook/pythonpath.sh
+source;share/parkingbot/hook/pythonscriptspath.ps1
+source;share/parkingbot/hook/pythonscriptspath.dsv
+source;share/parkingbot/hook/pythonscriptspath.sh
+source;share/parkingbot/hook/ament_prefix_path.ps1
+source;share/parkingbot/hook/ament_prefix_path.dsv
+source;share/parkingbot/hook/ament_prefix_path.sh

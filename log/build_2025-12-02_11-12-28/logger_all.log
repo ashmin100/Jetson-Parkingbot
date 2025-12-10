@@ -1,0 +1,98 @@
+[1.362s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.363s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb44c22e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb44c22e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb44495e0>)
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.664s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/device07/parkingbot'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.768s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'parkingbot'
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.904s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'cmake_args' from command line to 'None'
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'cmake_target' from command line to 'None'
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'cmake_clean_first' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'cmake_force_configure' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'ament_cmake_args' from command line to 'None'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.250s] Level 5:colcon.colcon_core.verb:set package 'parkingbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.250s] DEBUG:colcon.colcon_core.verb:Building package 'parkingbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/device07/parkingbot/build/parkingbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/device07/parkingbot/install/parkingbot', 'merge_install': False, 'path': '/home/device07/parkingbot', 'symlink_install': False, 'test_result_base': None}
+[2.251s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.257s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/device07/parkingbot' with build type 'ament_python'
+[2.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('parkingbot', 'ament_prefix_path')
+[2.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/ament_prefix_path.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/ament_prefix_path.dsv'
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/ament_prefix_path.sh'
+[2.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.417s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/device07/parkingbot'
+[3.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/device07/parkingbot': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data
+[11.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/device07/parkingbot' returned '0': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data
+[11.246s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot' for CMake module files
+[11.249s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot' for CMake config files
+[11.255s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot/lib'
+[11.256s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot/bin'
+[11.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('parkingbot', 'path')
+[11.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/path.ps1'
+[11.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/path.dsv'
+[11.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/path.sh'
+[11.275s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot/lib/pkgconfig/parkingbot.pc'
+[11.277s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages'
+[11.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('parkingbot', 'pythonpath')
+[11.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/pythonpath.ps1'
+[11.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/pythonpath.dsv'
+[11.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/pythonpath.sh'
+[11.291s] Level 1:colcon.colcon_core.environment:checking '/home/device07/parkingbot/install/parkingbot/bin'
+[11.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('parkingbot', 'pythonscriptspath')
+[11.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/pythonscriptspath.ps1'
+[11.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/pythonscriptspath.dsv'
+[11.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/device07/parkingbot/install/parkingbot/share/parkingbot/hook/pythonscriptspath.sh'
+[11.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parkingbot)
+[11.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/device07/parkingbot/install/parkingbot/share/parkingbot/package.ps1'
+[11.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/device07/parkingbot/install/parkingbot/share/parkingbot/package.dsv'
+[11.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/device07/parkingbot/install/parkingbot/share/parkingbot/package.sh'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/device07/parkingbot/install/parkingbot/share/parkingbot/package.bash'
+[11.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/device07/parkingbot/install/parkingbot/share/parkingbot/package.zsh'
+[11.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/device07/parkingbot/install/parkingbot/share/colcon-core/packages/parkingbot)
+[11.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.345s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.402s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.504s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[11.505s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/device07/parkingbot/install/local_setup.ps1'
+[11.513s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/device07/parkingbot/install/_local_setup_util_ps1.py'
+[11.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/device07/parkingbot/install/setup.ps1'
+[11.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/device07/parkingbot/install/local_setup.sh'
+[11.547s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/device07/parkingbot/install/_local_setup_util_sh.py'
+[11.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/device07/parkingbot/install/setup.sh'
+[11.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/device07/parkingbot/install/local_setup.bash'
+[11.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/device07/parkingbot/install/setup.bash'
+[11.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/device07/parkingbot/install/local_setup.zsh'
+[11.593s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/device07/parkingbot/install/setup.zsh'

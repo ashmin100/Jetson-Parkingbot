@@ -1,0 +1,24 @@
+[3.315s] Invoking command in '/home/device07/parkingbot': PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data
+[4.387s] running egg_info
+[4.389s] writing build/parkingbot/parkingbot.egg-info/PKG-INFO
+[4.390s] writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt
+[4.391s] writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt
+[4.392s] writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt
+[4.392s] writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt
+[4.567s] reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[4.571s] writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[4.572s] running build
+[4.572s] running build_py
+[4.574s] copying parkingbot/pose_wrapper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[4.575s] running install
+[4.579s] running install_lib
+[4.584s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/pose_wrapper.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[4.587s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/pose_wrapper.py to pose_wrapper.cpython-38.pyc
+[4.594s] running install_data
+[4.595s] running install_egg_info
+[4.603s] removing '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info' (and everything under it)
+[4.605s] Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info
+[4.610s] running install_scripts
+[4.685s] Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot
+[4.687s] writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'
+[4.786s] Invoked command in '/home/device07/parkingbot' returned '0': PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data

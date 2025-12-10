@@ -1,0 +1,33 @@
+[4.287s] Invoking command in '/home/device07/parkingbot': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data
+[5.087s] /home/device07/miniforge3/envs/jetson07/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.088s]   warnings.warn(msg)
+[5.647s] running egg_info
+[5.734s] writing build/parkingbot/parkingbot.egg-info/PKG-INFO
+[5.736s] writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt
+[5.738s] writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt
+[5.739s] writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt
+[5.740s] writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt
+[6.393s] reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[6.401s] writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[6.402s] running build
+[6.403s] running build_py
+[6.404s] copying parkingbot/depth_helper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.405s] copying parkingbot/vision_node.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.406s] copying parkingbot/gesture_logic.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.407s] copying parkingbot/__init__.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.409s] copying parkingbot/pose_wrapper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[6.412s] running install
+[6.443s] running install_lib
+[6.535s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/pose_wrapper.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[6.540s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/pose_wrapper.py to pose_wrapper.cpython-38.pyc
+[6.544s] running install_data
+[6.545s] copying resource/parkingbot -> /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index/packages
+[6.550s] copying package.xml -> /home/device07/parkingbot/install/parkingbot/share/parkingbot
+[6.551s] copying launch/parkingbot.launch.py -> /home/device07/parkingbot/install/parkingbot/share/parkingbot/launch
+[6.552s] running install_egg_info
+[6.646s] removing '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info' (and everything under it)
+[6.648s] Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info
+[6.654s] running install_scripts
+[6.869s] Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot
+[6.871s] writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'
+[6.972s] Invoked command in '/home/device07/parkingbot' returned '0': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data

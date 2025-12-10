@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: parkingbot
+Version: 0.0.1
+Summary: Gesture-controlled TurtleBot3 using jetson-inference poseNet and RealSense depth.
+Home-page: UNKNOWN
+Maintainer: TODO Maintainer
+Maintainer-email: todo@example.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

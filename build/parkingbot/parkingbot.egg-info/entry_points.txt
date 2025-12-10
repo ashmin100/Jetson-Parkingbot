@@ -1,0 +1,3 @@
+[console_scripts]
+parkingbot_node = parkingbot.vision_node:main
+

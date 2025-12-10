@@ -1,0 +1,50 @@
+[5.638s] Invoking command in '/home/device07/parkingbot': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data
+[6.590s] /home/device07/miniforge3/envs/jetson07/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[6.591s]   warnings.warn(msg)
+[7.195s] running egg_info
+[7.197s] creating build/parkingbot/parkingbot.egg-info
+[7.289s] writing build/parkingbot/parkingbot.egg-info/PKG-INFO
+[7.292s] writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt
+[7.293s] writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt
+[7.294s] writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt
+[7.296s] writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt
+[7.892s] writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[8.158s] reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[8.165s] writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'
+[8.168s] running build
+[8.168s] running build_py
+[8.169s] creating /home/device07/parkingbot/build/parkingbot/build
+[8.170s] creating /home/device07/parkingbot/build/parkingbot/build/lib
+[8.171s] creating /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[8.173s] copying parkingbot/depth_helper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[8.177s] copying parkingbot/vision_node.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[8.179s] copying parkingbot/gesture_logic.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[8.182s] copying parkingbot/__init__.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[8.184s] copying parkingbot/pose_wrapper.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot
+[8.188s] running install
+[8.225s] running install_lib
+[8.326s] creating /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[8.327s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/depth_helper.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[8.327s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/vision_node.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[8.330s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/gesture_logic.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[8.330s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/__init__.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[8.331s] copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/pose_wrapper.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot
+[8.337s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/depth_helper.py to depth_helper.cpython-38.pyc
+[8.337s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/vision_node.py to vision_node.cpython-38.pyc
+[8.343s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/gesture_logic.py to gesture_logic.cpython-38.pyc
+[8.347s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/__init__.py to __init__.cpython-38.pyc
+[8.348s] byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/pose_wrapper.py to pose_wrapper.cpython-38.pyc
+[8.350s] running install_data
+[8.351s] creating /home/device07/parkingbot/install/parkingbot/share/ament_index
+[8.352s] creating /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index
+[8.353s] creating /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index/packages
+[8.353s] copying resource/parkingbot -> /home/device07/parkingbot/install/parkingbot/share/ament_index/resource_index/packages
+[8.356s] copying package.xml -> /home/device07/parkingbot/install/parkingbot/share/parkingbot
+[8.359s] creating /home/device07/parkingbot/install/parkingbot/share/parkingbot/launch
+[8.360s] copying launch/parkingbot.launch.py -> /home/device07/parkingbot/install/parkingbot/share/parkingbot/launch
+[8.362s] running install_egg_info
+[8.466s] Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info
+[8.475s] running install_scripts
+[8.717s] Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/bin
+[8.723s] writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'
+[8.923s] Invoked command in '/home/device07/parkingbot' returned '0': CONDA_PROMPT_MODIFIER=(jetson07) PYTHONPATH=/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/parkingbot build --build-base /home/device07/parkingbot/build/parkingbot/build install --record /home/device07/parkingbot/build/parkingbot/install.log --single-version-externally-managed install_data

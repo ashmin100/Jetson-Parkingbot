@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000378] (parkingbot) JobQueued: {'identifier': 'parkingbot', 'dependencies': OrderedDict()}
+[0.002186] (parkingbot) JobStarted: {'identifier': 'parkingbot'}
+[0.099312] (-) TimerEvent: {}
+[0.200607] (-) TimerEvent: {}
+[0.301185] (-) TimerEvent: {}
+[0.401766] (-) TimerEvent: {}
+[0.502335] (-) TimerEvent: {}
+[0.602979] (-) TimerEvent: {}
+[0.703488] (-) TimerEvent: {}
+[0.804224] (-) TimerEvent: {}
+[0.904777] (-) TimerEvent: {}
+[1.005332] (-) TimerEvent: {}
+[1.105951] (-) TimerEvent: {}
+[1.206631] (-) TimerEvent: {}
+[1.307274] (-) TimerEvent: {}
+[1.408369] (-) TimerEvent: {}
+[1.509634] (-) TimerEvent: {}
+[1.610491] (-) TimerEvent: {}
+[1.710985] (-) TimerEvent: {}
+[1.811482] (-) TimerEvent: {}
+[1.912020] (-) TimerEvent: {}
+[2.012515] (-) TimerEvent: {}
+[2.113029] (-) TimerEvent: {}
+[2.213532] (-) TimerEvent: {}
+[2.314012] (-) TimerEvent: {}
+[2.414506] (-) TimerEvent: {}
+[2.515026] (-) TimerEvent: {}
+[2.615616] (-) TimerEvent: {}
+[2.716163] (-) TimerEvent: {}
+[2.816667] (-) TimerEvent: {}
+[2.917168] (-) TimerEvent: {}
+[3.017729] (-) TimerEvent: {}
+[3.118322] (-) TimerEvent: {}
+[3.218872] (-) TimerEvent: {}
+[3.319395] (-) TimerEvent: {}
+[3.419964] (-) TimerEvent: {}
+[3.520524] (-) TimerEvent: {}
+[3.621048] (-) TimerEvent: {}
+[3.694998] (parkingbot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/parkingbot', 'build', '--build-base', '/home/device07/parkingbot/build/parkingbot/build', 'install', '--record', '/home/device07/parkingbot/build/parkingbot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/device07/parkingbot', 'env': {'VSCODE_CWD': '/home/device07', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'device07', 'SSH_CLIENT': '192.168.1.76 63257 22', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko/tcf.json","messagesFile":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/nls.messages.json","corruptMarkerFile":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"6f26367f4a75d0dc3582ad23c0fe941f.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko/tcf.json","_cacheRoot":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko","_resolvedLanguagePackCoreLocation":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko/bf9252a2fb45be6893dd8870c0bf37e2e1766d61","_corruptedFile":"/home/device07/.vscode-server/data/clp/6f26367f4a75d0dc3582ad23c0fe941f.ko/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/device07', 'OLDPWD': '/home/device07', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3759cdbc-c572-482a-8613-24e749d85d39.sock', 'JETSON_L4T': '35.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'device07', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX', 'JETSON_SERIAL_NUMBER': '1421922008799', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/tmp/.tmpB3yj3T:/home/device07/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/device07/.vscode-server/extensions/openai.chatgpt-0.4.46-linux-arm64/bin/linux-aarch64', 'VSCODE_AGENT_FOLDER': '/home/device07/.vscode-server', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'JETSON_SOC': 'tegra194', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/device07/parkingbot/build/parkingbot', 'SSH_CONNECTION': '192.168.1.76 63257 192.168.1.207 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/device07/parkingbot/build/parkingbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'JETSON_JETPACK': '5.1.5', 'JETSON_P_NUMBER': 'p3668-0001'}, 'shell': False}
+[3.721357] (-) TimerEvent: {}
+[3.821872] (-) TimerEvent: {}
+[3.922448] (-) TimerEvent: {}
+[4.022966] (-) TimerEvent: {}
+[4.123488] (-) TimerEvent: {}
+[4.224061] (-) TimerEvent: {}
+[4.324543] (-) TimerEvent: {}
+[4.425107] (-) TimerEvent: {}
+[4.525629] (-) TimerEvent: {}
+[4.626232] (-) TimerEvent: {}
+[4.726826] (-) TimerEvent: {}
+[4.827377] (-) TimerEvent: {}
+[4.888302] (parkingbot) StdoutLine: {'line': b'running egg_info\n'}
+[4.890978] (parkingbot) StdoutLine: {'line': b'writing build/parkingbot/parkingbot.egg-info/PKG-INFO\n'}
+[4.892171] (parkingbot) StdoutLine: {'line': b'writing dependency_links to build/parkingbot/parkingbot.egg-info/dependency_links.txt\n'}
+[4.893196] (parkingbot) StdoutLine: {'line': b'writing entry points to build/parkingbot/parkingbot.egg-info/entry_points.txt\n'}
+[4.894325] (parkingbot) StdoutLine: {'line': b'writing requirements to build/parkingbot/parkingbot.egg-info/requires.txt\n'}
+[4.894791] (parkingbot) StdoutLine: {'line': b'writing top-level names to build/parkingbot/parkingbot.egg-info/top_level.txt\n'}
+[4.927598] (-) TimerEvent: {}
+[5.028247] (-) TimerEvent: {}
+[5.074667] (parkingbot) StdoutLine: {'line': b"reading manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'\n"}
+[5.079254] (parkingbot) StdoutLine: {'line': b"writing manifest file 'build/parkingbot/parkingbot.egg-info/SOURCES.txt'\n"}
+[5.080647] (parkingbot) StdoutLine: {'line': b'running build\n'}
+[5.081183] (parkingbot) StdoutLine: {'line': b'running build_py\n'}
+[5.082081] (parkingbot) StdoutLine: {'line': b'copying parkingbot/gesture_logic.py -> /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot\n'}
+[5.084256] (parkingbot) StdoutLine: {'line': b'running install\n'}
+[5.088117] (parkingbot) StdoutLine: {'line': b'running install_lib\n'}
+[5.093550] (parkingbot) StdoutLine: {'line': b'copying /home/device07/parkingbot/build/parkingbot/build/lib/parkingbot/gesture_logic.py -> /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot\n'}
+[5.097224] (parkingbot) StdoutLine: {'line': b'byte-compiling /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot/gesture_logic.py to gesture_logic.cpython-38.pyc\n'}
+[5.109642] (parkingbot) StdoutLine: {'line': b'running install_data\n'}
+[5.110720] (parkingbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.118077] (parkingbot) StdoutLine: {'line': b"removing '/home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[5.120120] (parkingbot) StdoutLine: {'line': b'Copying build/parkingbot/parkingbot.egg-info to /home/device07/parkingbot/install/parkingbot/lib/python3.8/site-packages/parkingbot-0.0.1-py3.8.egg-info\n'}
+[5.126529] (parkingbot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.128400] (-) TimerEvent: {}
+[5.206760] (parkingbot) StdoutLine: {'line': b'Installing parkingbot_node script to /home/device07/parkingbot/install/parkingbot/lib/parkingbot\n'}
+[5.209795] (parkingbot) StdoutLine: {'line': b"writing list of installed files to '/home/device07/parkingbot/build/parkingbot/install.log'\n"}
+[5.228608] (-) TimerEvent: {}
+[5.302614] (parkingbot) CommandEnded: {'returncode': 0}
+[5.328904] (-) TimerEvent: {}
+[5.386192] (parkingbot) JobEnded: {'identifier': 'parkingbot', 'rc': 0}
+[5.389772] (-) EventReactorShutdown: {}
